@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+fieldset{
+    position: relative;
+    width: 400px;
+    height: 97vh;
+    left: 500px;
+    display: flex;
+    margin:2px 2px 2px 2px;
+    border: rgba(0, 183, 255, 0.815) 2px solid;
+
+}
+legend{
+    color:gold;
+    text-align: center;
+    font-size: 25spx;
+
+}
+
+#left{
+    /* height: 100%; */
+    width: 190px;
+    background-color: blue;
+    margin:10px 5px 4px 4px;
+    border-right: rgba(0, 183, 255, 0.815) 5px solid;
+}
+#right{
+
+    margin:10px 5px 4px 4px;
+    /* height: 100%; */
+    width: 190px;
+    background-color: brown;
+
+
+}
