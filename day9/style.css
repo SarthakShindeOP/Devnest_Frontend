@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+}
+
+.top{
+    height:100px;
+    width: 100vw;
+    text-align: center;
+}
+    
+#main{
+    height: calc(100vh - 100px);
+    width: 95vw;
+    margin: 2px;
+    display: grid;
+    padding: 0;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    border:1px red solid;
+    gap:0px 0px;
+}
+.cube{
+    background-color: red;
+    border:1px solid green;
+   
+}
+#left{
+    display: inline-block;
+    margin: 5px;
+}
+#right{
+    display: inline-block;
+}
